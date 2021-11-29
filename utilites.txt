@@ -1,0 +1,2 @@
+button color: F2F013
+main color: 2FDD92
