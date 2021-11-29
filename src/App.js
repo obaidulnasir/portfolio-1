@@ -3,6 +3,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './components/pages/Home/Home';
 import Navigation from './components/pages/Shared/Navigation';
+import Project from './components/pages/Project/Project';
 
 function App() {
   return (
@@ -12,6 +13,9 @@ function App() {
         <Switch>
           <Route path="/home">
               <Home></Home>
+          </Route>
+          <Route path="/project">
+              <Project></Project>
           </Route>
           <Route exact path="/">
               <Home></Home>

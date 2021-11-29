@@ -7,7 +7,7 @@ const About = () => {
         <div>
             <div>
                 <Container className="py-5">
-                    <div className="row d-flex align-items-center">
+                    <div className="row d-flex align-items-center py-5">
                         <div className="col-md-8">
                             <h3 className="text-right heading1">Let me introduce myself</h3>
                             <p className="text-right lead text-white w-75">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio soluta doloremque a veniam earum totam <span className="heading1"> illum quod cumque! Deserunt quaerat </span> molestias voluptates omnis accusamus unde quia veritatis, expedita sit! Laboriosam.</p>
