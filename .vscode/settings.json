@@ -1,0 +1,24 @@
+// {
+//     "editor.formatOnSave": true,
+//     "liveSassCompile.settings.autoprefix": [],
+//   "liveSassCompile.settings.excludeList": [
+//       "**/node_modules/**",
+//       ".vscode/**"
+//   ],
+//   "workbench.iconTheme": "material-icon-theme",
+//   "liveServer.settings.donotShowInfoMsg": true,
+//   "explorer.confirmDelete": false,
+//   "files.autoSave": "off",
+//   "files.autoSaveDelay": 500,
+//   "editor.defaultFormatter": "esbenp.prettier-vscode",
+//   "emmet.excludeLanguages": [
+  
+//     "markdown"
+//   ],
+//   "workbench.colorTheme": "Monokai",
+//   "emmet.includeLanguages": {
+//     "javascript": "javascriptreact"
+//   },
+//   "workbench.startupEditor": "none",
+//   "editor.fontSize": 17
+//   }
