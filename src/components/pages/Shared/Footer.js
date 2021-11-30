@@ -15,10 +15,10 @@ const Footer = () => {
                         </div>
                         <div className="col-md-4">
                             <div className="fs-5">
-                            <button className="btn btn-light m-2"><i class="bi bi-linkedin"></i><a className="text-white" rel="noopener noreferrer" href="https://github.com/obaidulnasir/ceramics-shop-server.git" target="_blank"> </a></button>
-                            <button className="btn btn-light m-2"><i class="bi bi-instagram"></i><a className="text-white" rel="noopener noreferrer" href="https://github.com/obaidulnasir/ceramics-shop-server.git" target="_blank"> </a></button>
-                            <button className="btn btn-light m-2"><i class="bi bi-twitter"></i><a className="text-white" rel="noopener noreferrer" href="https://github.com/obaidulnasir/ceramics-shop-server.git" target="_blank"> </a></button>
-                            <button className="btn btn-light m-2"><i class="bi bi-facebook"></i><a className="text-white" rel="noopener noreferrer" href="https://github.com/obaidulnasir/ceramics-shop-server.git" target="_blank"> </a></button> 
+                            <button className="btn btn-dark text-white m-2 fs-5"><a rel="noopener noreferrer" href="https://www.linkedin.com/in/obaidulnasir/" target="_blank"> <i class="bi bi-linkedin"></i></a></button>
+                            <button className="btn btn-dark text-white m-2 fs-5"><a rel="noopener noreferrer" href="https://github.com/obaidulnasir" target="_blank"> <i class="bi bi-github"></i></a></button>
+                            <button className="btn btn-dark text-white m-2 fs-5"><a rel="noopener noreferrer" href="https://instagram.com/obaidulnasir" target="_blank"> <i class="bi bi-instagram"></i></a></button>
+                            <button className="btn btn-dark text-white m-2 fs-5"><a rel="noopener noreferrer" href="https://twitter.com/obaidulnasir" target="_blank"> <i class="bi bi-twitter"></i></a></button>
                             </div>
                         </div>
                     </Row>
