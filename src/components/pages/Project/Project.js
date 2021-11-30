@@ -22,7 +22,7 @@ const Project = () => {
             <div>
                 <div className="container">
                     <div className="row g-4">
-                        <div className="col-4">
+                        <div className="col-md-4 col-sm-12">
                             <Card className="p-3">
                                 <Card.Img variant="top" src={project2} />
                                 <Card.Body>
@@ -41,7 +41,7 @@ const Project = () => {
                                 </Card.Body>
                             </Card>
                         </div>
-                        <div className="col-4">
+                        <div className="col-md-4 col-sm-12">
                             <Card className="p-3">
                                 <Card.Img variant="top" src={project3} />
                                 <Card.Body>
@@ -58,7 +58,7 @@ const Project = () => {
                                 </Card.Body>
                             </Card>
                         </div>
-                        <div className="col-4">
+                        <div className="col-md-4 col-sm-12">
                             <Card className="p-3">
                                 <Card.Img variant="top" src={project4} />
                                 <Card.Body>

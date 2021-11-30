@@ -7,10 +7,10 @@ const Footer = () => {
             <div className="bg-dark py-4">
                 <Container>
                     <Row>
-                        <div className="col-md-4">
+                        <div className="col-md-4 col-sm-12">
                             <h6>Design and Develop by <strong>Obaidul Nasir</strong></h6>
                         </div>
-                        <div className="col-md-4">
+                        <div className="col-md-4 col-sm-12">
                             <h6>Copyright @2021</h6>
                         </div>
                         <div className="col-md-4">

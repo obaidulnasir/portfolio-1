@@ -12,10 +12,10 @@ const ContactMe = () => {
                 </div>
 
                 <div className="row d-flex align-items-center my-5">
-                    <div className="col-md-4">
+                    <div className="col-md-4 col-sm-12">
                         <img src={contactsvg} width="90%" alt="" />
                     </div>
-                    <div className="col-md-8 heading1">
+                    <div className="col-md-8 col-sm-12 heading1">
                         <Contact></Contact>
                     </div>
                 </div>

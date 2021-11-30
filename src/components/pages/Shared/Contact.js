@@ -20,7 +20,7 @@ const Contact = () => {
     return (
         <div>
             <div className="container">
-                <div className="row w-50 mx-auto">
+                <div className="row w-75 mx-auto">
                     <div className="col">
                         <Form onSubmit={sendEmail}>
                             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
