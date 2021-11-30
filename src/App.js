@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './components/pages/Home/Home';
 import Navigation from './components/pages/Shared/Navigation';
 import Project from './components/pages/Project/Project';
+import Contact from './components/pages/Shared/Contact';
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
           </Route>
           <Route path="/project">
               <Project></Project>
+          </Route>
+          <Route path="/contact">
+              <Contact></Contact>
           </Route>
           <Route exact path="/">
               <Home></Home>

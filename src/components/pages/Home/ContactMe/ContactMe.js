@@ -1,18 +1,34 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
+import Contact from '../../Shared/Contact';
 
 const ContactMe = () => {
     return (
-        <div className="App text-white">
-            <h2>Find me on</h2>
-            <p>Feel free to <span className="heading1">connect</span> with me </p>
-
-           <div className="fs-3">
-           <i class="bi bi-twitter m-1"></i>
-            <i class="bi bi-facebook m-1"></i>
-            <i class="bi bi-instagram m-1"></i>
-           </div>
+        <div>
+            <Container>
+                <div className="row">
+                    <div className="col-md-8">
+                        <div className="row w-75">
+                            <Contact></Contact>
+                        </div>
+                    </div>
+                    <div className="col-md-4">
+                        <img src="" alt="" />
+                    </div>
+                </div>
+            </Container>
         </div>
     );
 };
 
-export default ContactMe;
+export default ContactMe;<Container>
+<div className="row">
+    <div className="col-md-8">
+                    <div className="row w-75">
+                        <Contact></Contact>
+                    </div>
+    </div>
+    <div className="col-md-4">
+        <img src="" alt="" />
+    </div>
+</div></Container>
