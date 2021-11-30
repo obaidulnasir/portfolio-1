@@ -8,7 +8,7 @@ const Footer = () => {
                 <Container>
                     <Row>
                         <div className="col-md-4">
-                            <h6>Design and Develop by Me</h6>
+                            <h6>Design and Develop by <strong>Obaidul Nasir</strong></h6>
                         </div>
                         <div className="col-md-4">
                             <h6>Copyright @2021</h6>
