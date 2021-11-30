@@ -15,9 +15,10 @@ const Footer = () => {
                         </div>
                         <div className="col-md-4">
                             <div className="fs-5">
-                                <i class="bi bi-twitter m-1"></i>
-                                <i class="bi bi-facebook m-1"></i>
-                                <i class="bi bi-instagram m-1"></i>
+                            <button className="btn btn-light m-2"><i class="bi bi-linkedin"></i><a className="text-white" rel="noopener noreferrer" href="https://github.com/obaidulnasir/ceramics-shop-server.git" target="_blank"> </a></button>
+                            <button className="btn btn-light m-2"><i class="bi bi-instagram"></i><a className="text-white" rel="noopener noreferrer" href="https://github.com/obaidulnasir/ceramics-shop-server.git" target="_blank"> </a></button>
+                            <button className="btn btn-light m-2"><i class="bi bi-twitter"></i><a className="text-white" rel="noopener noreferrer" href="https://github.com/obaidulnasir/ceramics-shop-server.git" target="_blank"> </a></button>
+                            <button className="btn btn-light m-2"><i class="bi bi-facebook"></i><a className="text-white" rel="noopener noreferrer" href="https://github.com/obaidulnasir/ceramics-shop-server.git" target="_blank"> </a></button> 
                             </div>
                         </div>
                     </Row>

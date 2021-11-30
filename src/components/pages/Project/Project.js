@@ -4,6 +4,7 @@ import Footer from '../Shared/Footer';
 import project1 from "./img/project1.png"
 import project2 from "./img/project2.png"
 import project3 from "./img/project3.png"
+import project4 from "./img/project4.png"
 
 const Project = () => {
     return (
@@ -13,7 +14,6 @@ const Project = () => {
                 <Row>
                     <Col className="text-center text-white">
                         <h3>My Recent <span className="heading1">Works</span></h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </Col>
                 </Row>
             </Container>
@@ -60,21 +60,21 @@ const Project = () => {
                         </div>
                         <div className="col-4">
                             <Card className="p-3">
-                                <Card.Img variant="top" src={project1} />
+                                <Card.Img variant="top" src={project4} />
                                 <Card.Body>
-                                    <Card.Title>Card Title</Card.Title>
+                                    <Card.Title>Pets Care</Card.Title>
                                     <Card.Text>
                                         Some quick example text to build on the card title and make up the bulk of
                                         the card's content.
                                     </Card.Text>
                                     <div className="d-flex justify-content-around">
-                                        <button className="btn btn-success"><i class="bi bi-globe"></i><a className="text-white" rel="noopener noreferrer" href="https://ceramics-shop.web.app" target="_blank"> Live link</a></button>
-                                        <button className="btn btn-success"><i class="bi bi-front"></i><a className="text-white" rel="noopener noreferrer" href="https://github.com/obaidulnasir/ceramics-shop-client.git" target="_blank"> Code</a></button>
+                                        <button className="btn btn-success"><i class="bi bi-globe"></i><a className="text-white" rel="noopener noreferrer" href="https://pets-care-obaidulnasir.netlify.app/" target="_blank"> Live link</a></button>
+                                        <button className="btn btn-success"><i class="bi bi-front"></i><a className="text-white" rel="noopener noreferrer" href="https://github.com/obaidulnasir/pets-care-website.git" target="_blank"> Code</a></button>
                                     </div>                               
                                  </Card.Body>
                             </Card>
                         </div>
-                        <div className="col-4">
+                        {/* <div className="col-4">
                             <Card className="p-3">
                                 <Card.Img variant="top" src={project1} />
                                 <Card.Body>
@@ -89,7 +89,7 @@ const Project = () => {
                                     </div>                               
                                  </Card.Body>
                             </Card>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

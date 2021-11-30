@@ -5,12 +5,13 @@ import contactsvg from "./contact.svg"
 
 const ContactMe = () => {
     return (
-        <div className="banner">
+        <div className="">
             <Container>
+                <div>
+                    <h2 className="text-center heading1 my-5">Contact</h2>
+                </div>
+
                 <div className="row d-flex align-items-center my-5">
-                    <div>
-                        <h2 className="text-center heading1 my-5">Contact</h2>
-                    </div>
                     <div className="col-md-4">
                         <img src={contactsvg} width="90%" alt="" />
                     </div>
@@ -23,14 +24,4 @@ const ContactMe = () => {
     );
 };
 
-export default ContactMe; <Container>
-    <div className="row">
-        <div className="col-md-8">
-            <div className="row w-80">
-                <Contact></Contact>
-            </div>
-        </div>
-        <div className="col-md-4">
-            <img src="" alt="" />
-        </div>
-    </div></Container>
+export default ContactMe;
