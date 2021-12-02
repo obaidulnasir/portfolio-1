@@ -5,6 +5,7 @@ import Home from './components/pages/Home/Home';
 import Navigation from './components/pages/Shared/Navigation';
 import Project from './components/pages/Project/Project';
 import Contact from './components/pages/Shared/Contact';
+import Admin from './components/Admin/Admin';
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
           </Route>
           <Route path="/contact">
               <Contact></Contact>
+          </Route>
+          <Route path="/admin1">
+              <Admin></Admin>
           </Route>
           <Route exact path="/">
               <Home></Home>
