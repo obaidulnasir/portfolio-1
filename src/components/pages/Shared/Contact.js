@@ -40,7 +40,7 @@ const Contact = () => {
                                 <Form.Control required  name="message" as="textarea" rows={3} />
                             </Form.Group>
                             <button >
-                                <input className="btn" type="submit" value="SEND" /><i class="bi bi-send fs-5"></i>
+                                <input className="btn" type="submit" value="SEND" /><i className="bi bi-send fs-5"></i>
                             </button>
                         </Form>
                     </div>

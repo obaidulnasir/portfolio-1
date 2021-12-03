@@ -6,6 +6,7 @@ import Navigation from './components/pages/Shared/Navigation';
 import Project from './components/pages/Project/Project';
 import Contact from './components/pages/Shared/Contact';
 import Admin from './components/Admin/Admin';
+import SingleProject from './components/pages/SingleProject/SingleProject';
 
 function App() {
   return (
@@ -16,8 +17,11 @@ function App() {
           <Route path="/home">
               <Home></Home>
           </Route>
-          <Route path="/project">
+          <Route exact path="/project">
               <Project></Project>
+          </Route>
+          <Route  path="/project/:id">
+              <SingleProject></SingleProject>
           </Route>
           <Route path="/contact">
               <Contact></Contact>
